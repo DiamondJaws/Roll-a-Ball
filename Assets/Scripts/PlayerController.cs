@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour {
 	void SetCountText () {
 		countText.text = "Count: " + count.ToString();
 		if (count>=12){
-			WinText.text = "Gianmarco è Gay";
+			WinText.text = "You Win!";
 		}
 	}
 
